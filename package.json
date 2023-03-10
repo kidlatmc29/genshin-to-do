@@ -7,13 +7,21 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Ethan7144 kidlatmc",
+  "license": "MIT",
   "dependencies": {
     "discord.js": "^14.7.1",
     "dotenv": "^16.0.3"
   },
   "devDependencies": {
     "eslint": "^8.35.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kidlatmc29/genshin-to-do.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kidlatmc29/genshin-to-do/issues"
+  },
+  "homepage": "https://github.com/kidlatmc29/genshin-to-do#readme"
 }
