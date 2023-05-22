@@ -1,5 +1,5 @@
 const { Events } = require('discord.js');
-
+const { db } = require('../database/database.js');
 module.exports = {
 	name: Events.InteractionCreate,
 	async execute(interaction) {
@@ -13,7 +13,7 @@ module.exports = {
 		}
 
 		try {
-			await command.execute(interaction);
+			await command.execute(interaction, db);
 		} catch (error) {
 			console.error(`Error executing ${interaction.commandName}`);
 			console.error(error);

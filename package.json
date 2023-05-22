@@ -4,15 +4,19 @@
   "description": "Discord bot that keeps track of to-do's for Genshin Impact",
   "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "commands": "node deploy-commands.js",
+    "commands": "node deploy-commands.js"
   },
   "keywords": [],
   "author": "Ethan7144 kidlatmc",
   "license": "MIT",
   "dependencies": {
-    "discord.js": "^14.7.1",
-    "dotenv": "^16.0.3"
+    "@discordjs/builders": "^1.6.3",
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.0.3",
+    "sequelize": "^6.31.1",
+    "sqlite3": "^5.1.6"
   },
   "devDependencies": {
     "eslint": "^8.35.0"
